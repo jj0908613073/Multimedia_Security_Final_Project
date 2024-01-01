@@ -1,0 +1,20 @@
+Attack Results for Shift-Histogram
+
+Attack Type: gaussian_noise
+PSNR: 20.22, SSIM: 0.29, BER: 0.9965
+
+Attack Type: salt_and_pepper_noise
+PSNR: 19.44, SSIM: 0.39, BER: 0.9918
+
+Attack Type: mean_filter
+PSNR: 35.78, SSIM: 0.95, BER: 0.9959
+
+Attack Type: median_filter
+PSNR: 38.05, SSIM: 0.96, BER: 0.9946
+
+Attack Type: high_pass_filter
+PSNR: 6.51, SSIM: 0.12, BER: 0.9997
+
+Attack Type: rotate_image
+PSNR: 10.57, SSIM: 0.28, BER: 0.9960
+
