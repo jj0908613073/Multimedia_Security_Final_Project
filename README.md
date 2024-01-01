@@ -13,7 +13,7 @@ attacks = ['gaussian_noise', 'salt_and_pepper_noise', 'mean_filter', 'median_fil
 並產生統計圖("result\all_results.png")及數據("result\attack_results.txt")及攻擊後的個別圖片("result\attacks_name.png")<br>
 
 3.提取<br>
-解出"image\res_encode.png"，解出並存Key("txt\secret_out.txt")<br>
+解出明文("image\res_encode.png")，並存Key("txt\secret_out.txt")<br>
 ![secret](https://github.com/huang-u/Multimedia_Security_Final_Project/assets/81971590/2992d843-85c0-4295-8e9c-4229e81c598e)
 
 4.退出<br>
@@ -38,7 +38,7 @@ attacks = ['gaussian_noise', 'salt_and_pepper_noise', 'mean_filter', 'median_fil
 ![all_attack_results](https://github.com/huang-u/Multimedia_Security_Final_Project/assets/81971590/cd3156cf-ee6b-4eac-b1f2-76a928fcf2cf)
 
 3.提取<br>
-解出"image\Marked_Image.png"，解出並存Key("txt\secret_out.txt")<br>
+解出明文("image\Recovered_Image.png")，並存Key("txt\secret_out.txt")<br>
 ![secret](https://github.com/huang-u/Multimedia_Security_Final_Project/assets/81971590/013fa2d2-83ea-445c-bbbb-b77076fe0b59)
 
 4.退出<br>
