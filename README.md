@@ -46,3 +46,9 @@ attacks = ['gaussian_noise', 'salt_and_pepper_noise', 'mean_filter', 'median_fil
 結束應用<br>
 ![end](https://github.com/huang-u/Multimedia_Security_Final_Project/assets/81971590/b2082429-6257-4f95-af83-c924c6f4094b)
 </p>
+
+## 攻擊過後數據
+<p>
+  
+![image](https://github.com/huang-u/Multimedia_Security_Final_Project/assets/81971590/60953120-c01b-40bb-bd54-4197123516b4)
+</p>
