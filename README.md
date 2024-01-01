@@ -5,7 +5,7 @@
 <p>
 請選擇功能：<br>
 1.隱寫<br>
-使用Key("txt\secret.txt")加密明文("image\lena.png")，生成密文("image\res_encode.png")<br>
+使用Key("txt\secret.txt")加密明文("image\lena.bmp")，生成密文("image\res_encode.png")<br>
 
 2.攻擊<br>
 attacks = ['gaussian_noise', 'salt_and_pepper_noise', 'mean_filter', 'median_filter', 'high_pass_filter', 'rotate_image']<br>
