@@ -11,6 +11,7 @@
 attacks = ['gaussian_noise', 'salt_and_pepper_noise', 'mean_filter', 'median_filter', 'high_pass_filter', 'rotate_image']<br>
 利用以上攻擊方法，攻擊"image\res_encode.png"，<br>
 並產生統計圖("result\all_results.png")及數據("result\attack_results.txt")及攻擊後的個別圖片("result\attacks_name.png")<br>
+![all_results](https://github.com/huang-u/Multimedia_Security_Final_Project/assets/81971590/2482891b-c2cb-4dda-b2c4-550e478a38f7)
 
 3.提取<br>
 解出明文("image\res_encode.png")，並存Key("txt\secret_out.txt")<br>
@@ -21,7 +22,7 @@ attacks = ['gaussian_noise', 'salt_and_pepper_noise', 'mean_filter', 'median_fil
 ![end](https://github.com/huang-u/Multimedia_Security_Final_Project/assets/81971590/18779d0a-c85b-4b55-8479-e68331f18f2b)
 </p>
 
-## Shift-Hitogram
+## Shift-Histogram
 使用直方圖的位移中嵌入額外的信息，這樣的技術可以用來隱藏訊息，而不引起人眼或人耳的感知變化。<br>
 直接跑Reversible_Data_Hiding.py即可
 <p>
