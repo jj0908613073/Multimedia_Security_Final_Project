@@ -105,7 +105,7 @@ if __name__ == '__main__':
     while True:
         choice = input("請選擇功能：1.隱寫 2.攻擊 3.提取 4.退出 ：")
         if choice=='1':
-            img_src = 'LSB-Steganography/image/lena.png'
+            img_src = 'LSB-Steganography/image/lena.bmp'
             file_src = 'LSB-Steganography/txt/secret.txt'
             lsb_embed(img_src,file_src)
         elif choice=='2':

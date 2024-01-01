@@ -1,20 +1,20 @@
 Attack Results for LSB-Steganography
 
 Attack Type: gaussian_noise
-PSNR: 20.60, SSIM: 0.91, BER: 0.9941
+PSNR: 20.22, SSIM: 0.29, BER: 0.9961
 
 Attack Type: salt_and_pepper_noise
-PSNR: 18.88, SSIM: 0.88, BER: 0.9878
+PSNR: 19.55, SSIM: 0.39, BER: 0.9911
 
 Attack Type: mean_filter
-PSNR: 13.87, SSIM: 0.23, BER: 0.9970
+PSNR: 35.83, SSIM: 0.95, BER: 0.9956
 
 Attack Type: median_filter
-PSNR: 12.10, SSIM: 0.27, BER: 0.9942
+PSNR: 38.10, SSIM: 0.96, BER: 0.9944
 
 Attack Type: high_pass_filter
-PSNR: 9.89, SSIM: 0.67, BER: 0.9951
+PSNR: 6.47, SSIM: 0.12, BER: 0.9997
 
 Attack Type: rotate_image
-PSNR: 9.71, SSIM: 0.01, BER: 0.9960
+PSNR: 10.59, SSIM: 0.28, BER: 0.9963
 
