@@ -6,12 +6,14 @@
 請選擇功能：<br>
 1.隱寫<br>
 使用Key("txt\secret.txt")加密明文("image\lena.bmp")，生成密文("image\res_encode.png")<br>
-
+<img src='Multimedia_Security/LSB-Steganography/image/lena.png' width='200'> <img src='Multimedia_Security/LSB-Steganography/image/res_encode.png' width='200'><br>
+  
 2.攻擊<br>
 attacks = ['gaussian_noise', 'salt_and_pepper_noise', 'mean_filter', 'median_filter', 'high_pass_filter', 'rotate_image']<br>
 利用以上攻擊方法，攻擊"image\res_encode.png"，<br>
 並產生統計圖("result\all_results.png")及數據("result\attack_results.txt")及攻擊後的個別圖片("result\attacks_name.png")<br>
-![all_results](https://github.com/huang-u/Multimedia_Security_Final_Project/assets/81971590/2482891b-c2cb-4dda-b2c4-550e478a38f7)
+<!--![all_results](https://github.com/huang-u/Multimedia_Security_Final_Project/assets/81971590/2482891b-c2cb-4dda-b2c4-550e478a38f7)>-->
+<img src='Multimedia_Security/LSB-Steganography/result/all_attack_results.png' width=70%><br>
 
 3.提取<br>
 解出明文("image\res_encode.png")，並存Key("txt\secret_out.txt")<br>
@@ -30,13 +32,15 @@ attacks = ['gaussian_noise', 'salt_and_pepper_noise', 'mean_filter', 'median_fil
 請選擇功能：<br>
 1.隱寫<br>
 使用Key(random)加密明文("image\lena.bmp")，生成密文("image\Marked_Image.png")<br>
-![all_image_results](https://github.com/huang-u/Multimedia_Security_Final_Project/assets/81971590/3ed5e015-516f-4a44-a21b-b7c2f9cf9b81)
+<!--![all_image_results](https://github.com/huang-u/Multimedia_Security_Final_Project/assets/81971590/3ed5e015-516f-4a44-a21b-b7c2f9cf9b81)-->
+<img src='Multimedia_Security/LSB-Steganography/image/lena.png' width='200'> <img src='Multimedia_Security/Shift-Histogram/image/Recover_Image.png' width='200'><br>
 
 2.攻擊<br>
 attacks = ['gaussian_noise', 'salt_and_pepper_noise', 'mean_filter', 'median_filter', 'high_pass_filter', 'rotate_image']<br>
 利用以上攻擊方法，攻擊"image\Marked_Image.png"，<br>
 並產生統計圖("result\all_attack_results.png")及數據("result\attack_results.txt")及攻擊後的個別圖片("result\attacks_name.png")<br>
-![all_attack_results](https://github.com/huang-u/Multimedia_Security_Final_Project/assets/81971590/cd3156cf-ee6b-4eac-b1f2-76a928fcf2cf)
+<!--![all_attack_results](https://github.com/huang-u/Multimedia_Security_Final_Project/assets/81971590/cd3156cf-ee6b-4eac-b1f2-76a928fcf2cf)-->
+<img src='Multimedia_Security/Shift-Histogram/result/all_attack_results.png' width=70%><br>
 
 3.提取<br>
 解出明文("image\Recovered_Image.png")，並存Key("txt\secret_out.txt")<br>
