@@ -28,7 +28,8 @@ attacks = ['gaussian_noise', 'salt_and_pepper_noise', 'mean_filter', 'median_fil
 
 請選擇功能：<br>
 1.隱寫<br>
-使用Key(random)加密明文("image\lena.bmp")，生成密文("image\Marked_Image.png")
+使用Key(random)加密明文("image\lena.bmp")，生成密文("image\Marked_Image.png")<br>
+![all_image_results](https://github.com/huang-u/Multimedia_Security_Final_Project/assets/81971590/3ed5e015-516f-4a44-a21b-b7c2f9cf9b81)
 
 2.攻擊<br>
 attacks = ['gaussian_noise', 'salt_and_pepper_noise', 'mean_filter', 'median_filter', 'high_pass_filter', 'rotate_image']<br>
